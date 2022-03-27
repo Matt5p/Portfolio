@@ -1,0 +1,35 @@
+.formacion {
+    margin-top: 3rem;
+}
+
+.formacion__caja {
+    /* display: flex; */
+}
+
+.formacion__title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.formacion__container {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; */
+}
+
+.formacion__item {
+    /* margin-top: 3rem; */
+    background: #FFFFFF;
+    width: 368px;
+    height: 286px;
+    padding: 16px;
+    margin: 8px;
+}
+
+.formacion__item {
+
+    /* content: url(../../images/formacion/alura.png);
+    background-position: center;
+    background-repeat: no-repeat; */
+    
+}

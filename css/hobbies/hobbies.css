@@ -1,0 +1,40 @@
+.hobbies {
+    margin-top: 3rem;
+    /* width: 70%; */
+    
+}
+
+.hobbies__caja {
+    /* width: 70%; */
+    /* margin: auto; */
+    /* justify-content: center; */
+}
+
+.hobbies__title{
+    text-align: center;
+}
+
+.hobbies__container {
+    /* width: 100%;
+    margin: auto; */
+    display: flex;
+    padding: 64px;
+    justify-content: center;
+}
+
+.hobbies__list {
+    display: flex;
+    list-style: none;
+}
+
+.hobbies__item {
+    background: #FFFFFF;
+    width: 176px;
+    height: 174px;
+    padding: 16px;
+    margin: 8px;
+}
+
+.hobbies__image {
+    color: #2A7AE4;
+}

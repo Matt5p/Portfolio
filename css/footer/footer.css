@@ -1,0 +1,6 @@
+.footer {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+}

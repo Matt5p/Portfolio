@@ -1,0 +1,35 @@
+.about-me__contenedor {
+    width: 1136px;
+    margin: auto;
+}
+
+.about-me {
+    background: #EAF2FD;
+    /* display: flex; */
+    /* justify-content: left;
+    padding: 64px; */
+}
+
+.about-me__caja {
+    
+    /* width: 80%; */
+    
+}
+
+.about-me__title {
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.about_me__descripcion {
+    color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}

@@ -1,0 +1,40 @@
+.skills {
+    margin-top: 3rem;
+    /* width: 70%; */
+    
+}
+
+.skills__caja {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+.skills__title{
+    text-align: center;
+}
+
+.skills__container {
+    display: flex;
+    padding: 64px;
+    justify-content: center;
+}
+
+.skills__list {
+    display: flex;
+    list-style: none;
+    justify-content: center;    
+}
+
+.skills__item {
+    background: #FFFFFF;
+    width: 176px;
+    height: 174px;
+    padding: 16px;
+    margin: 8px;
+    
+}
+
+.skills__image {
+    color: #2A7AE4;
+}
