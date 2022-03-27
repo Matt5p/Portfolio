@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
 
-    <link rel="stylesheet" href="css/contacto.css">
+    <!-- <link rel="stylesheet" href="css/contacto.css"> -->
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header/header.css">
     <link rel="stylesheet" href="css/presentacion/presentacion.css">
     <link rel="stylesheet" href="css/about-me/about-me.css">
@@ -18,12 +19,13 @@
     <link rel="stylesheet" href="css/hobbies/hobbies.css">
     <link rel="stylesheet" href="css/formacion/formacion.css">
     <link rel="stylesheet" href="css/experiencia/experiencia.css">
+    <link rel="stylesheet" href="css/contacto/contacto.css">
 
     <title>Portfolio - Matías Albornoz</title>
 </head>
 <body>
     <header class="header">
-        <div class="header__container">
+        <div class="header__contenedor">
             <h2 class="header__titulo">Matias Albornoz</h3>
        
             <nav class="header__nav">
@@ -48,10 +50,10 @@
 
                 <div class="presentacion__redes">
                     <ul class="presentacion__lista">
-                        <a class="presentacion__items-link" href="https://github.com/Matt5p"><li class="presentacion__items">Github<img src="./images/Vector.png" alt="imagen de link"></li></a>
-                        <a class="presentacion__items-link" href="https://www.linkedin.com/in/mat%C3%ADas-albornoz-603520211/"><li class="presentacion__items">Linkedin<img src="./images/Vector.png" alt="imagen de link"></li></a>
-                        <a class="presentacion__items-link" href="https://www.instagram.com/matt5p/"><li class="presentacion__items">Instagram<img src="./images/Vector.png" alt="imagen de link"></li></a>
-                        <a class="presentacion__items-link" href="./images/CV.pdf"><li class="presentacion__items">Curriculo<img src="./images/Vector.png" alt="imagen de link"></li></a>
+                        <a class="presentacion__items-link" href="https://github.com/Matt5p"><li class="presentacion__items">Github <img src="./images/Vector.png" alt="imagen de link"></li></a>
+                        <a class="presentacion__items-link" href="https://www.linkedin.com/in/mat%C3%ADas-albornoz-603520211/"><li class="presentacion__items">Linkedin <img src="./images/Vector.png" alt="imagen de link"></li></a>
+                        <a class="presentacion__items-link" href="https://www.instagram.com/matt5p/"><li class="presentacion__items">Instagram <img src="./images/Vector.png" alt="imagen de link"></li></a>
+                        <a class="presentacion__items-link" href="./images/CV.pdf"><li class="presentacion__items">Curriculo <img src="./images/Vector.png" alt="imagen de link"></li></a>
                     </ul>
                 </div>
 
@@ -73,9 +75,9 @@
         </section>
 
         <section class="skills" id="skills">
-            <div class="skills__caja">
+            <div class="skills__contenedor">
                 <h2 class="skills__title">Skills</h2>
-                <div class="skills__container">
+                <!-- <div class="skills__caja"> -->
                     <ul class="skills__list">
                         <li class="skills__item"><img class="skills__image" src="./images/skills/html-icon.png" alt="" ><label for="">HTML</label></li>
                         <li class="skills__item"><img class="skills__image" src="./images/skills/css-icon.png" alt="" ><label for="">CSS</label></li>
@@ -87,14 +89,14 @@
                     </ul>
                     
                     
-                </div>
+                <!-- </div> -->
             </div>
         </section>
 
         <section class="hobbies" id="hobbies">
-            <div class="hobbies__caja">
+            <div class="hobbies__contenedor">
                 <h2 class="hobbies__title">Hobbies</h2>
-                <div class="hobbies__container">
+                <div class="hobbies__caja">
                     <ul class="hobbies__list">
                         <li class="hobbies__item"><label for=""></label><img class="hobbies__image" src="./images/hobbies/css-icon.png" alt=""></li>
                         <li class="hobbies__item"><label for=""></label><img class="hobbies__image" src="./images/hobbies/css-icon.png" alt=""></li>
@@ -121,10 +123,10 @@
         </section> -->
 
         <section class="formacion" id="formacion">
-            <div class="formacion__caja">
+            <div class="formacion__contenedor">
                 <h2 class="formacion__title">Formación Académica</h2>
-                <div class="formacion__container">
-                    <ul>
+                <div class="formacion__lista-contenedor">
+                    <ul class="formacion__lista">
                         <li><img src="./images/formacion/utn.png" alt="Logo UTN"></li>
                         <li><h3>Técnicatura Universitaria en Programación</h3></li>
                         <li><p>2019 - Presente</p></li>
@@ -134,21 +136,30 @@
                         <li><h3>Front End</h3></li>
                         <li><p>2022 - Presente</p></li>
                     </ul>
-                    <!-- <ul>
-                        <li><img src="" alt=""></li>
-                        <li><h3>UTN Río Grande</h3></li>
-                        <li><p>2019 - Presente</p></li>
-                    </ul> -->
                 </div>
             </div>
-            <p>UTN Rio Grande</p>
         </section>
 
         <section class="experiencia" id="experiencia">
-            <div class="experiencia__caja">
+            <div class="experiencia__contenedor">
                 <h2 class="experiencia__title">Experiencia Profesional</h2>
+                
+
+                <!-- AGREGAR AL FINALIZAR EL Contacto -->
+
+                <div class="experiencia__item">
+                    <div class="experiencia__item-preview"></div>
+                    <div class="experiencia__item-description"></div>
+                </div>
+                <div class="experiencia__item">
+                    <div class="experiencia__item-preview"></div>
+                    <div class="experiencia__item-description"></div>
+                </div>
+                <div class="experiencia__item">
+                    <div class="experiencia__item-preview"></div>
+                    <div class="experiencia__item-description"></div>
+                </div>
             </div>
-            <p>texto prueba</p>
         </section>
 
         <section class="formcontacto" id="contacto">

@@ -6,10 +6,7 @@
 }
 
 .presentacion {
-    
-    
     padding: 64px;
-    
 }
 
 
@@ -70,8 +67,10 @@
 
 .presentacion__imagen {
     background: url('../../images/FotoPortfolio.jpg');
-    width: 386px;
-    height: 368px;
+    /* width: 386px;
+    height: 368px; */
+    width: 320px;
+    height: 320px;
     border-radius: 100%;
     background-repeat: no-repeat;
     background-position: center;

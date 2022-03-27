@@ -4,19 +4,18 @@
     
 }
 
-.skills__caja {
-    width: 100%;
-    margin: auto;
-    justify-content: center;
+.skills__contenedor {
+    width: 1136px;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
 .skills__title{
     text-align: center;
 }
 
-.skills__container {
+.skills__caja {
     display: flex;
-    padding: 64px;
     justify-content: center;
 }
 
@@ -30,7 +29,7 @@
     background: #FFFFFF;
     width: 176px;
     height: 174px;
-    padding: 16px;
+    /* padding: 16px; */
     margin: 8px;
     
 }

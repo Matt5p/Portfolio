@@ -1,13 +1,15 @@
 .about-me__contenedor {
     width: 1136px;
     margin: auto;
+    padding: 64px 0;
 }
 
 .about-me {
     background: #EAF2FD;
     /* display: flex; */
     /* justify-content: left;
-    padding: 64px; */
+     */
+    
 }
 
 .about-me__caja {

@@ -4,6 +4,7 @@
 
 .formacion__caja {
     /* display: flex; */
+    
 }
 
 .formacion__title {
@@ -11,10 +12,16 @@
     margin-bottom: 3rem;
 }
 
-.formacion__container {
+.formacion__contenedor {
+    width: 1136px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.formacion__lista-contenedor {
     display: flex;
-    justify-content: center;
-    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
 }
 
 .formacion__item {
@@ -24,12 +31,4 @@
     height: 286px;
     padding: 16px;
     margin: 8px;
-}
-
-.formacion__item {
-
-    /* content: url(../../images/formacion/alura.png);
-    background-position: center;
-    background-repeat: no-repeat; */
-    
 }
