@@ -8,8 +8,7 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
-
-    <!-- <link rel="stylesheet" href="css/contacto.css"> -->
+    
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header/header.css">
     <link rel="stylesheet" href="css/presentacion/presentacion.css">
@@ -20,10 +19,12 @@
     <link rel="stylesheet" href="css/formacion/formacion.css">
     <link rel="stylesheet" href="css/experiencia/experiencia.css">
     <link rel="stylesheet" href="css/contacto/contacto.css">
+    <link rel="stylesheet" href="css/botones.css">
 
     <title>Portfolio - Matías Albornoz</title>
 </head>
 <body>
+    <div class="contenedor__general">
     <header class="header">
         <div class="header__contenedor">
             <h2 class="header__titulo">Matias Albornoz</h3>
@@ -60,7 +61,6 @@
             </div>
             <div class="presentacion__derecha">
                 <div class="presentacion__imagen"></div>
-                <!-- <img src="./images/FotoPortfolio.jpg" alt="foto de presentacion"> -->
             </div>
         </div>
         </section>
@@ -79,16 +79,14 @@
                 <h2 class="skills__title">Skills</h2>
                 <!-- <div class="skills__caja"> -->
                     <ul class="skills__list">
-                        <li class="skills__item"><img class="skills__image" src="./images/skills/html-icon.png" alt="" ><label for="">HTML</label></li>
-                        <li class="skills__item"><img class="skills__image" src="./images/skills/css-icon.png" alt="" ><label for="">CSS</label></li>
-                        <li class="skills__item"><img class="skills__image" src="./images/skills/css-icon.png" alt="" ><label for="">CSS</label></li>
-                        <li class="skills__item"><img class="skills__image" src="./images/skills/css-icon.png" alt="" ><label for="">CSS</label></li>
+                        <li class="skills__item"><img class="skills__image" src="./images/skills/icons8-html-5-64.png" alt="logo html" ><label for="">HTML</label></li>
+                        <li class="skills__item"><img class="skills__image" src="./images/skills/icons8-css3-64.png" alt="logo css" ><label for="">CSS</label></li>
+                        <li class="skills__item"><img class="skills__image" src="./images/skills/icons8-javascript-64.png" alt="logo javacsript" ><label for="">CSS</label></li>
+                        <li class="skills__item"><img class="skills__image" src="./images/skills/icons8-c++-64.png" alt="logo c++" ><label for="">CSS</label></li>
                         <li class="skills__item"><img class="skills__image" src="./images/skills/css-icon.png" alt="" ><label for="">CSS</label></li>
                         <li class="skills__item"><img class="skills__image" src="./images/skills/css-icon.png" alt="" ><label for="">CSS</label></li>
                         
                     </ul>
-                    
-                    
                 <!-- </div> -->
             </div>
         </section>
@@ -96,45 +94,32 @@
         <section class="hobbies" id="hobbies">
             <div class="hobbies__contenedor">
                 <h2 class="hobbies__title">Hobbies</h2>
-                <div class="hobbies__caja">
+                <!-- <div class="hobbies__caja"> -->
                     <ul class="hobbies__list">
-                        <li class="hobbies__item"><label for=""></label><img class="hobbies__image" src="./images/hobbies/css-icon.png" alt=""></li>
-                        <li class="hobbies__item"><label for=""></label><img class="hobbies__image" src="./images/hobbies/css-icon.png" alt=""></li>
-                        <li class="hobbies__item"><label for=""></label><img class="hobbies__image" src="./images/hobbies/css-icon.png" alt=""></li>
-                        <li class="hobbies__item"><label for=""></label><img class="hobbies__image" src="./images/hobbies/css-icon.png" alt=""></li>
-                        <li class="hobbies__item"><label for=""></label><img class="hobbies__image" src="./images/hobbies/css-icon.png" alt=""></li>
-                        <li class="hobbies__item"><label for=""></label><img class="hobbies__image" src="./images/hobbies/css-icon.png" alt=""></li>
+                        <li class="hobbies__item"><label for=""></label><img class="hobbies__image" src="./images/hobbies/icons8-skating-64.png" alt="icono de patinar"></li>
+                        <li class="hobbies__item"><label for=""></label><img class="hobbies__image" src="./images/hobbies/icons8-snowboard-64.png" alt="icono de snowboard"></li>
+                        <li class="hobbies__item"><label for=""></label><img class="hobbies__image" src="./images/hobbies/icons8-goalie-64.png" alt="icono de hockey goalie"></li>
+                        <li class="hobbies__item"><label for=""></label><img class="hobbies__image" src="./images/hobbies/icons8-riding-64.png" alt="icono de bicicleta"></li>
+                        <li class="hobbies__item"><label for=""></label><img class="hobbies__image" src="./images/hobbies/icons8-movie-64.png" alt="icono de pelicula"></li>
+                        <li class="hobbies__item"><label for=""></label><img class="hobbies__image" src="./images/hobbies/icons8-videogame-64.png" alt="icono de videojuego"></li>
                     </ul>
-                </div>
+                <!-- </div> -->
             </div>
         </section>
-
-        <!-- <section class="formacion" id="formacion">
-            <div class="formacion__caja">
-                <h2 class="formacion__title">Formación Académica</h2>
-                <div class="formacion__container">
-                    <div class="formacion__item"></div>
-                    <div class="formacion__item"></div>
-                    <div class="formacion__item"></div>
-                    <div class="formacion__item"></div>
-                </div>
-            </div>
-            <p>UTN Rio Grande</p>
-        </section> -->
 
         <section class="formacion" id="formacion">
             <div class="formacion__contenedor">
                 <h2 class="formacion__title">Formación Académica</h2>
                 <div class="formacion__lista-contenedor">
                     <ul class="formacion__lista">
-                        <li><img src="./images/formacion/utn.png" alt="Logo UTN"></li>
+                        <li><img class="formacion__lista-imagen" src="./images/formacion/utn.png" alt="Logo UTN"></li>
                         <li><h3>Técnicatura Universitaria en Programación</h3></li>
-                        <li><p>2019 - Presente</p></li>
+                        <li><p>2019 - En curso</p></li>
                     </ul>
-                    <ul>
-                        <li><img src="./images/formacion/alura.png" alt="Logo Alura"></li>
+                    <ul class="formacion__lista">
+                        <li><img class="formacion__lista-imagen" src="./images/formacion/alura.png" alt="Logo Alura"></li>
                         <li><h3>Front End</h3></li>
-                        <li><p>2022 - Presente</p></li>
+                        <li><p>2022 - En curso</p></li>
                     </ul>
                 </div>
             </div>
@@ -143,10 +128,6 @@
         <section class="experiencia" id="experiencia">
             <div class="experiencia__contenedor">
                 <h2 class="experiencia__title">Experiencia Profesional</h2>
-                
-
-                <!-- AGREGAR AL FINALIZAR EL Contacto -->
-
                 <div class="experiencia__item">
                     <div class="experiencia__item-preview">
                         <img class="imagen-preview" src="./images/experiencia/encriptador.png" alt="">
@@ -154,8 +135,10 @@
                     <div class="experiencia__item-description">
                         <h3>Encriptador de texto</h3>
                         <h4>Challenge Alura Codificador</h4>
-                        <a href="https://github.com/Matt5p/Encriptador---Alura-Challenge"><input type="button" value="Repositorio"></a>
-                        <a href="https://matt5p.github.io/Encriptador---Alura-Challenge/"><input type="button" value="Ver demo"></a>
+                        <div class="botones">
+                            <a href="https://github.com/Matt5p/Encriptador---Alura-Challenge"><input class="boton-vacio" type="button" value="Repositorio"></a>
+                            <a href="https://matt5p.github.io/Encriptador---Alura-Challenge/"><input class="boton-lleno" type="button" value="Ver demo"></a>
+                        </div>
                     </div>
                 </div>
                 <div class="experiencia__item">
@@ -165,8 +148,10 @@
                     <div class="experiencia__item-description">
                         <h3>Juego creado con HTML y JavaScript</h3>
                         <h4>Challenge Oracle</h4>
-                        <a href="https://github.com/Matt5p/Ahorcado---Alura-Challenge"><input type="button" value="Repositorio"></a>
-                        <a href="https://matt5p.github.io/Ahorcado---Alura-Challenge/"><input type="button" value="Ver demo"></a>
+                        <div class="botones">
+                            <a href="https://github.com/Matt5p/Ahorcado---Alura-Challenge"><input class="boton-vacio" type="button" value="Repositorio"></a>
+                            <a href="https://matt5p.github.io/Ahorcado---Alura-Challenge/"><input class="boton-lleno" type="button" value="Ver demo"></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -189,7 +174,7 @@
                                 <input type="email" class="contacto-input" name="email" id="email" placeholder="E-mail">
                                 <input type="text" class="contacto-input" name="asunto" id="asunto" placeholder="Asunto">
                                 <textarea class="contacto-textarea" name="mensaje" id="mensaje" cols="40" rows="10" placeholder="Mensaje"></textarea>
-                                <button type="submit">Enviar</button>
+                                <button class="boton-lleno" type="submit">Enviar</button>
                             </form>
                         </div>
                     </div>
@@ -200,11 +185,9 @@
     <footer class="footer">
         <div class="footer__container">
             <p class="footer__contenido">Matías Albornoz - 2022</p>
-        </div>        
+        </div>
     </footer>
-
+    </div>
     <script src="./js/validacion.js"></script>
 </body>
 </html>
-
-<!-- fuente raleway -->

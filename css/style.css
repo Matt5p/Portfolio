@@ -5,4 +5,10 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1;
+    /* width: 1440px; */
+}
+
+.contenedor__general {
+    /* display: flex;
+    align-items: center; */
 }

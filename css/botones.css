@@ -1,0 +1,15 @@
+.boton-vacio, .boton-lleno {
+    padding: .5rem;
+    border-radius: 5px;
+    width: 8rem;
+}
+
+.boton-vacio {
+    color: #2A7AE4;
+    border-color: #2A7AE4;
+}
+
+.boton-lleno {
+    background: #2A7AE4;
+    color: #FFFFFF;
+}
