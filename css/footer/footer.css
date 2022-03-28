@@ -1,6 +1,50 @@
 .footer {
     background: #FFFFFF;
+}
+
+.footer__container {
+    width: 1136px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     padding: 64px;
+}
+
+.footer__contenido {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+ /* Media Query for Mobile Devices */
+@media screen and (max-width: 480px) {
+
+    .footer__container {
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        padding: auto;
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media screen and (min-width: 481px) and (max-width: 767px){
+    .footer__container {
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        padding: auto;
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .footer__container {
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        padding: auto;
+    }
 }
