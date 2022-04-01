@@ -38,6 +38,7 @@
 .contact-title {
     font-size: 22px;
     font-weight: 700;
+    margin-bottom: .75rem;
 }
 
 .contact-subtext {
@@ -75,15 +76,19 @@
     color:#2a7ae4;
 }
 
-/* Media Query for Mobile Devices */
-@media screen and (max-width: 480px) {
+.boton-contacto {
+    margin-top: .75rem;
+}
 
+/* Media Query for Mobile Devices */
+/* 
+@media screen and (max-width: 480px) {
     .contacto__contenedor {
         width: 480;
         margin: 0 auto;
         flex-direction: column;
     }
-}
+} */
 
 /* Media Query for Tablets Ipads portrait mode */
 @media screen and (min-width: 481px) and (max-width: 767px){

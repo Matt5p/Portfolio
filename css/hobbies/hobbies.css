@@ -24,8 +24,19 @@
     height: 174px;
     /* padding: 16px; */
     margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
 }
 
 .hobbies__image {
-    color: #2A7AE4;
+    width: 64px;
+    height: 64px;
+}
+
+.hobbies__text {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
 }
