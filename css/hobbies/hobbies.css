@@ -16,6 +16,7 @@
 .hobbies__list {
     display: flex;
     list-style: none;
+    justify-content: center;
 }
 
 .hobbies__item {
@@ -39,4 +40,25 @@
 .hobbies__text {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 480px) {
+    .hobbies__contenedor {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0 auto;
+        /* flex-direction: column; */
+        justify-content: space-evenly;
+        /* padding: auto; */
+        text-align: justify;
+    }
+
+    .hobbies__list {
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        /* width: 50%; */
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
 }

@@ -14,12 +14,6 @@
     
 }
 
-.about-me__caja {
-    
-    /* width: 80%; */
-    
-}
-
 .about-me__title {
     color: #464646;
     font-family: 'Raleway', sans-serif;
@@ -36,4 +30,14 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 480px) {
+    .about-me__contenedor {
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 1rem 1rem;
+        width: 100%;
+    }
 }

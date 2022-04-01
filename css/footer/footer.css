@@ -18,16 +18,15 @@
 }
 
  /* Media Query for Mobile Devices */
-/* @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
 
     .footer__container {
-        width: 60%;
+        box-sizing: border-box;
+        width: 100%;
         margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        padding: auto;
+        padding: 1.5rem 1rem;
     }
-} */
+}
 
 /* Media Query for Tablets Ipads portrait mode */
 /* @media screen and (min-width: 481px) and (max-width: 767px){

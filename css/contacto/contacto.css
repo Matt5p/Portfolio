@@ -81,14 +81,31 @@
 }
 
 /* Media Query for Mobile Devices */
-/* 
 @media screen and (max-width: 480px) {
     .contacto__contenedor {
-        width: 480;
+        box-sizing: border-box;
         margin: 0 auto;
-        flex-direction: column;
+        padding: 2rem .3rem;
+        width: 100%;
     }
-} */
+
+    .contacto {
+        padding: 0;
+    }
+
+    .derecha {
+        display: flex;
+        width: 100%;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .izquierda {
+        width: 0;
+        display: none;
+    }
+}
 
 /* Media Query for Tablets Ipads portrait mode */
 @media screen and (min-width: 481px) and (max-width: 767px){
