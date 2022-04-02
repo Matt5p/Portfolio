@@ -6,12 +6,6 @@
 
 .about-me {
     background: #EAF2FD;
-    /* display: flex; */
-    /* justify-content: left;
-     */
-
-     /* padding: 64px; */
-    
 }
 
 .about-me__title {
@@ -39,5 +33,32 @@
         margin: 0 auto;
         padding: 1rem 1rem;
         width: 100%;
+    }
+
+    .about-me__title {
+        font-size: 1.375rem;
+    }
+
+    .about_me__descripcion {
+        font-size: 0.875rem;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .about-me__contenedor {
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 1rem 1rem;
+        width: 100%;
+    }
+
+    .about-me__title {
+        font-size: 1.375rem;
+    }
+
+    .about_me__descripcion {
+        font-size: 0.875rem;
+        text-align: justify;
     }
 }

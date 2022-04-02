@@ -60,4 +60,33 @@
         /* flex-direction: column; */
         flex-wrap: wrap;
     }
+
+    .skills__item {
+        width: 156px;
+        height: 156px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .skills__contenedor {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0 auto;
+        /* flex-direction: column; */
+        justify-content: space-evenly;
+        /* padding: auto; */
+        text-align: justify;
+    }
+
+    .skills__list {
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+
+    .skills__item {
+        width: 224px;
+        height: 224px;
+    }
 }

@@ -40,7 +40,6 @@
 
 /* Media Query for Mobile Devices */
 @media screen and (max-width: 480px) {
-
     .formacion__contenedor {
         align-items: center;
         box-sizing: border-box;
@@ -66,7 +65,7 @@
 }
 
 /* Media Query for Tablets Ipads portrait mode */
-@media screen and (min-width: 481px) and (max-width: 767px){
+@media screen and (min-width: 481px) and (max-width: 768px) {
     .formacion__contenedor {
         align-items: center;
         box-sizing: border-box;
@@ -89,3 +88,28 @@
         height: auto;
     }
 }
+
+/* Media Query for Tablets Ipads portrait mode */
+/* @media screen and (min-width: 481px) and (max-width: 768px){
+    .formacion__contenedor {
+        align-items: center;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        padding: 2rem 2rem;
+        width: 100%;
+    }
+
+    .formacion__lista-contenedor {
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    .formacion__lista-imagen {
+        width: 100%;
+        height: auto;
+    }
+} */
